@@ -7,7 +7,7 @@
     "cloneName": {
       "type": "string",
       "page": "index.html",
-      "default": "8-bit-template"
+      "default": "PSOne-template"
     },
     "name": {
       "type": "string",
