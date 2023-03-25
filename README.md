@@ -1,1 +1,1 @@
-# 8-bit-template
+# PSOne-template
