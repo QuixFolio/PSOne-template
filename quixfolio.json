@@ -1,7 +1,7 @@
 {
-    "id":"8-bit-template",
-    "name":"8 Bit Template",
-    "description":"This is an 8 bit template",
+    "id":"PSOne-template",
+    "name":"PS One Template",
+    "description":"This is a PS one template",
     "image":"image.png",
     "schema": {
     "cloneName": {
