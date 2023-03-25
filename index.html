@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Resume</title>
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+    <style>
+        body {
+            padding-bottom: 50px;
+        }
+        .nes-progress {
+            height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav style='padding: 20px; border-bottom: 3px solid #ccc; margin-bottom: 60px;'>
+        <div class="container">
+            <h2 style='margin-bottom: 0;' id="name">
+                <i class="nes-icon trophy"></i> Name
+            </h2>
+
+        </div>
+    </nav>
+
+    <div class="container" style='margin-bottom: 50px; margin-left: 50px;'>
+        <div class="row bottom-md bottom-xs" style="display: flex; flex-direction: row; align-items: flex-start;">
+            <div class="col last-xs first-md">
+                <img id="picture" style='width: 100px; height: 100px; image-rendering: pixelated;'>
+            </div>
+            <div class="col-sm-9 col-xs-12">
+                <div class="nes-balloon from-left">
+                    <p>This is everything about me. <i class="nes-icon is-small heart"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title"></h3>
+        <div>
+            <div id="summary">
+                <h4>Summary</h4>
+            </div>
+        </div>
+    </section>
+
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <section class="nes-container with-title is-dark" style='margin: 20px;'>
+            <h3 class="title">Education</h3>
+            <div>
+                <div class="education" id="education">
+                    <div>
+                    <i university></i>
+                    University
+                    <div class="lists">
+                        <p></p>
+                        <p startYear>Start Year</p>
+                        <p endYear>End Year</p>
+                        <ul class="nes-list is-circle" style='margin-bottom: 0;'>
+                            <p></p>
+                            <li major> Major</li>
+                            <p></p>
+                            <li addInfo> Additional Info </li>
+                            <p></p>
+                            <li relevantCourse>Relevant Coursework</li>
+                            <ul class="nes-list is-circle" style='margin-bottom: 0;'>
+                                <p></p>
+                                <li><u>GPA</u><span gpa>GPA</span></li>
+                            </ul>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="nes-container with-title is-dark" style='margin: 20px; margin-top: 30px;'>
+        <h3 class="title">Achievements</h3>
+        <div class="lists">
+            <ul id="achievements" class="nes-list is-circle" style='margin-bottom: 0;'>
+                <li>
+                    <span name>Name</span>
+                    <span date>Date</span>
+                    <span position>Position</span>
+                </li>
+            </ul>
+        </div>
+        </section>
+
+        <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
+            <h3 class="title">Skills</h3>
+            <div id ="skills">
+                <div>
+                    <h5><u skills>Skills</u></h5>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
+            <h3 class="title">Publications</h3>
+            <div  id="publication">
+                <div>
+                    <h4 publication>Publication</h4>
+                </div>
+            </div>
+        </section>
+
+        <div class="col-md-12 col-sm-12 col-xs-12" style='margin: 22px; margin-top: 30px;'>
+            <h3 class="topic-title">
+                <i class="nes-icon star"></i> Work Experience
+            </h3>
+            <section class="nes-container is-rounded" id="workExperience">
+                <div>
+            <div class="row" style='margin-top: 30px;'>
+                <div class="col-xs-2">
+                    <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
+                </div>
+                <div class="col-xs-10">
+                    <h3 company>Company</h3>
+                    <p position>Position</p>
+                    <p location>Location</p>
+                    <p><span start-date>Start Date</span> - <span end-date>End Date</span></p></i>
+                    <div>
+                        <div>
+                            <div class="lists">
+                                <ul class="nes-list is-circle" style='margin-bottom: 0;' summary>
+                                    <p><li>Summary</li></p>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12" style='margin: 22px; margin-top: 30px;'>
+            <h3 class="topic-title">
+                <i class="nes-icon star"></i> Projects
+            </h3>
+            <section class="nes-container is-rounded" id="projects">
+            <div class="row" style='margin-top: 30px;'>
+                <div class="col-xs-2">
+                    <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
+                </div>
+                <div class="col-xs-10">
+                    <h3 name>Name</h3>
+                    <a source>Source</a>
+                    <a demo>Demo-URL</a>
+                    <p><span startDate>Start Date</span> - <span endDate>End Date</span></p></i>
+                    <div>
+                        <div>
+                            <div class="lists">
+                                <ul class="nes-list is-circle" style='margin-bottom: 0;' description>
+                                    <p><li>Description</li></p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </div>
+
+        <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
+            <h3 class="title">Connect with me</h3>
+            <div id="links">
+                <div>
+                <a link>
+                    <span name>Link</span>
+                </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
