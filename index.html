@@ -8,56 +8,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Resume</title>
     <!-- latest -->
-    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/98mprice/PSone.css@master/PSone.min.css">
     <style>
         body {
             padding-bottom: 50px;
         }
-        .nes-progress {
-            height: 25px;
+        .play {
+            font-family: "Play";
         }
     </style>
 </head>
 
 <body>
-    <nav style='padding: 20px; border-bottom: 3px solid #ccc; margin-bottom: 60px;'>
+    <nav style='border-bottom: 3px solid #ccc; margin-bottom: 60px;'>
         <div class="container">
-            <h2 style='margin-bottom: 0;' id="name">
-                <i class="nes-icon trophy"></i> Name
+            <h1 class="play" style='margin-left: 5%;' id="name">
+            Name
             </h2>
-
         </div>
     </nav>
 
-    <div class="container" style='margin-bottom: 50px; margin-left: 50px;'>
-        <div class="row bottom-md bottom-xs" style="display: flex; flex-direction: row; align-items: flex-start;">
-            <div class="col last-xs first-md">
-                <img id="picture" style='width: 100px; height: 100px; image-rendering: pixelated;'>
-            </div>
-            <div class="col-sm-9 col-xs-12">
-                <div class="nes-balloon from-left">
-                    <p>This is everything about me. <i class="nes-icon is-small heart"></i></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
+    <section class="container " style='margin: 20px; margin-top: 30px;'>
         <h3 class="title"></h3>
         <div>
-            <div id="summary">
+            <div id="summary" style='margin-left: 1%;'>
                 <h4>Summary</h4>
             </div>
         </div>
     </section>
 
     <div class="col-md-12 col-sm-12 col-xs-12">
-        <section class="nes-container with-title is-dark" style='margin: 20px;'>
+        <section class="container" style='margin: 20px;'>
             <h3 class="title">Education</h3>
             <div>
-                <div class="education" id="education">
+                <div class="education" id="education" style='margin-left: 1%;'>
                     <div>
                     <i university></i>
                     University
@@ -65,17 +49,15 @@
                         <p></p>
                         <p startYear>Start Year</p>
                         <p endYear>End Year</p>
-                        <ul class="nes-list is-circle" style='margin-bottom: 0;'>
+                        <ul>
                             <p></p>
                             <li major> Major</li>
                             <p></p>
                             <li addInfo> Additional Info </li>
                             <p></p>
                             <li relevantCourse>Relevant Coursework</li>
-                            <ul class="nes-list is-circle" style='margin-bottom: 0;'>
-                                <p></p>
-                                <li><u>GPA</u><span gpa>GPA</span></li>
-                            </ul>
+                            <p></p>
+                            <li><u>GPA:</u><span gpa> GPA</span></li>
                         </ul>
                     </div>
                     </div>
@@ -83,10 +65,10 @@
             </div>
         </section>
 
-        <section class="nes-container with-title is-dark" style='margin: 20px; margin-top: 30px;'>
+        <section class="container  " style='margin: 20px; margin-top: 30px;'>
         <h3 class="title">Achievements</h3>
         <div class="lists">
-            <ul id="achievements" class="nes-list is-circle" style='margin-bottom: 0;'>
+            <ul id="achievements" style='margin-left: 1%;'>
                 <li>
                     <span name>Name</span>
                     <span date>Date</span>
@@ -96,9 +78,9 @@
         </div>
         </section>
 
-        <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
+        <section class="container  " style='margin: 20px; margin-top: 30px;'>
             <h3 class="title">Skills</h3>
-            <div id ="skills">
+            <div id ="skills" style='margin-left: 1%;'>
                 <div>
                     <h5><u skills>Skills</u></h5>
                 </div>
@@ -106,24 +88,23 @@
             </div>
         </section>
 
-        <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
+        <section class="container  " style='margin: 20px; margin-top: 30px;'>
             <h3 class="title">Publications</h3>
-            <div  id="publication">
+            <div id="publication" style='margin-left: 1%;'>
                 <div>
                     <h4 publication>Publication</h4>
                 </div>
             </div>
         </section>
 
-        <div class="col-md-12 col-sm-12 col-xs-12" style='margin: 22px; margin-top: 30px;'>
-            <h3 class="topic-title">
-                <i class="nes-icon star"></i> Work Experience
-            </h3>
-            <section class="nes-container is-rounded" id="workExperience">
-                <div>
-            <div class="row" style='margin-top: 30px;'>
+        <div class="col-md-12 col-sm-12 col-xs-12" style='margin: 20px; margin-top: 30px;'>
+            <section class="container " id="workExperience" style="margin: 0%;">
+                <h3 class="title">
+                    Work Experience
+                </h3>
+            <div class="row" style='margin-top: 30px; margin-left: 1%;'>
                 <div class="col-xs-2">
-                    <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
+                    <img image style='width: 100px; height: 100px; '>
                 </div>
                 <div class="col-xs-10">
                     <h3 company>Company</h3>
@@ -133,7 +114,7 @@
                     <div>
                         <div>
                             <div class="lists">
-                                <ul class="nes-list is-circle" style='margin-bottom: 0;' summary>
+                                <ul  summary>
                                     <p><li>Summary</li></p>
                                 </ul>
                             </div>
@@ -141,28 +122,29 @@
                 </div>
                     </div>
                 </div>
-            </div>
             </section>
         </div>
 
-        <div class="col-md-12 col-sm-12 col-xs-12" style='margin: 22px; margin-top: 30px;'>
-            <h3 class="topic-title">
-                <i class="nes-icon star"></i> Projects
-            </h3>
-            <section class="nes-container is-rounded" id="projects">
-            <div class="row" style='margin-top: 30px;'>
+        <div class="col-md-12 col-sm-12 col-xs-12" style='margin: 20px; margin-top: 30px;'>
+            <section class="container " id="projects" style='margin: 0%;'>
+                <h3 class="title">
+                    Projects
+                 </h3>
+            <div class="row" style='margin-top: 30px; margin-left: 1%;'>
                 <div class="col-xs-2">
-                    <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
+                    <img image style='width: 100px; height: 100px;'>
                 </div>
                 <div class="col-xs-10">
                     <h3 name>Name</h3>
-                    <a source>Source</a>
-                    <a demo>Demo-URL</a>
-                    <p><span startDate>Start Date</span> - <span endDate>End Date</span></p></i>
+                    <a source style="margin-left: 1%;">Source</a>
+                    <p></p>
+                    <a demo style="margin-left: 1%;">Demo-URL</a>
+                    <p></p>
+                    <p style="margin-left: 0%;"><span startDate>Start Date</span> - <span endDate>End Date</span></p></i>
                     <div>
                         <div>
                             <div class="lists">
-                                <ul class="nes-list is-circle" style='margin-bottom: 0;' description>
+                                <ul  description>
                                     <p><li>Description</li></p>
                                 </ul>
                             </div>
@@ -173,10 +155,10 @@
             </section>
         </div>
 
-        <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
+        <section class="container  " style='margin: 20px; margin-top: 30px;'>
             <h3 class="title">Connect with me</h3>
-            <div id="links">
-                <div>
+            <div id="links" style='margin-left: 1%;'>
+                <div style="margin: 30px; margin-left: 1%;">
                 <a link>
                     <span name>Link</span>
                 </a>
