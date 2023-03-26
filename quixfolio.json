@@ -2,6 +2,7 @@
     "id":"PSOne-template",
     "name":"PS One Template",
     "description":"This is a PS one template",
+    "tags":["retro"],
     "image":"image.png",
     "schema": {
     "cloneName": {
